@@ -1,6 +1,7 @@
 # Final Project: Paradise Nursery Shopping Application
+## This is project is part of the IBM's Developing Front-End Apps with React Module 4 on Coursera
 
-##Introduction
+## Introduction
 In this final project, you will create a shopping cart application for an online plant shop which offers a variety of house plants.
 
 The Paradise Nursery shopping cart features will include:
