@@ -39,6 +39,17 @@ body {
    
 }
 
+.cart {
+    position: relative;
+}
+
+.cart-counter {
+    position: absolute;
+    left: 27px;
+    top: 17px;
+    font-size: 30px;
+}
+
 /* Product Grid */
 .product-grid {
     display:flex;
@@ -46,6 +57,23 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
+}
+
+.product-grid h1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.product-grid h1 div{
+   
+   width: 500px;
+   text-align: center;
+   border-top:solid;
+   border-bottom: solid ;
 }
 .product-list {
     display: flex;
@@ -95,6 +123,10 @@ body {
 .product-image {
     max-width: 100%;
     height: 200px; /* Adjust height for better consistency */
+}
+
+.product-description {
+    font-style: italic;
 }
 
 .product-button {
